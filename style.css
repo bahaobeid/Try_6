@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  color:#f3f3f3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.4;   
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #1b1b32;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+  header{
+text-align: center;
+  }
+
+#title{
+  margin: 8px;
+  margin-top: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size:32px;
+}  
+
+header p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+label{
+  display:block;
+}
+
+main{
+    margin-left:23.5%;
+    width:53%;
+    background-color: rgba(27, 27, 50,.8);
+    padding: 40px;
+    margin-top: 30px;
+    /* padding: 2.5rem 0.625rem; */
+    border-radius: 0.25rem;
+  }
+
+
+  .user-info {
+    margin-bottom:25px;
+  }
+
+  .user-info input {
+    width:100%;
+    padding: 5px;
+    height: 40px;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0.25rem;
+    margin-top:10px;
+  }
+
+  p{
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+  textarea{
+    width: 100%;
+    height: 130px;
+    font-family: inherit;
+  font-size: inherit;
+    border-radius: 0.25rem;
+    padding:07px;
+  }
+
+  select{
+    padding: 5px;
+    height: 40px;
+    width:100%;
+    margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: #495057;
+    border-radius: 0.25rem;
+  }
+
+  button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom:40px;
+    background-color: rgb(55,175,101);
+    font-size: inherit;
+    font-weight: 400;
+    color: inherit;
+    padding: 5px;
+     border: none;
+    border-radius: 0.25rem;
+  }
+
+
+input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-checkbox,
+.input-radios{
+  margin:10px;
+  margin-bottom:0px;
+  min-height: 1.1rem;
+  min-width: 1.1rem;
+
+}
+
+.check lable{
+  margin:10px;
+}
+
+span{
+  font-size:smaller;
+}
+
+#comment{
+  margin-top:50px;
+}
